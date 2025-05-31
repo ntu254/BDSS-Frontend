@@ -1,8 +1,11 @@
 import React from 'react';
-import { Heart, Home, Search, BookOpen, User } from 'lucide-react';
+import { Heart, Home, Search, BookOpen, User, LogOut } from 'lucide-react';
 import { Link } from 'react-router-dom';
+// import { useAuth } from '../hooks/useAuth';
 
 const Header = () => {
+    // const { user, isAuthenticated, logout } = useAuth();
+
     return (
         <header className="bg-white shadow-sm border-b border-gray-200">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,6 +41,37 @@ const Header = () => {
                             <span>Liên hệ</span>
                         </div>
                     </nav>
+
+                    {/* Auth Section */}
+                    {/* <div className="flex items-center space-x-4">
+                        {isAuthenticated ? (
+                            <div className="flex items-center space-x-4">
+                                <span className="text-gray-700">Xin chào, {user?.fullName}</span>
+                                <button
+                                    onClick={logout}
+                                    className="flex items-center space-x-1 text-gray-700 hover:text-blood-600 transition-colors"
+                                >
+                                    <LogOut className="w-4 h-4" />
+                                    <span>Đăng xuất</span>
+                                </button>
+                            </div>
+                        ) : (
+                            <>
+                                <Link
+                                    to="/login"
+                                    className="text-gray-700 hover:text-blood-600 font-medium transition-colors"
+                                >
+                                    Đăng nhập
+                                </Link>
+                                <Link
+                                    to="/register"
+                                        className="text-gray-700 hover:text-blood-600 font-medium transition-colors"
+                                >
+                                    Đăng ký
+                                </Link>
+                            </>
+                        )}
+                    </div> */}
 
                     {/* Auth Buttons */}
                     <div className="flex items-center space-x-4">

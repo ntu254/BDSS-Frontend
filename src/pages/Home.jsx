@@ -24,13 +24,13 @@ const Home = () => {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link
                                 to="/register"
-                                className="border border-blood-600 text-blood-600 px-8 py-3 rounded-lg hover:bg-blood-50 transition-colors font-medium"
+                                className="border border-red-500 text-red-500 px-8 py-3 rounded-lg hover:bg-red-50 transition-colors font-medium"
                             >
                                 Tham gia ngay
                             </Link>
                             <Link
                                 to="/login"
-                                className="border border-blood-600 text-blood-600 px-8 py-3 rounded-lg hover:bg-blood-50 transition-colors font-medium"
+                                className="border border-red-500 text-red-500 px-8 py-3 rounded-lg hover:bg-red-50 transition-colors font-medium"
                             >
                                 Đăng nhập
                             </Link>
@@ -54,7 +54,7 @@ const Home = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <div className="text-center group">
                             <div className="w-16 h-16 bg-blood-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blood-200 transition-colors">
-                                <Heart className="w-8 h-8 text-blood-600" />
+                                <Heart className="w-8 h-8 text-red-500" />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-900 mb-2">Hiến máu dễ dàng</h3>
                             <p className="text-gray-600 text-sm">Đăng ký hiến máu chỉ với vài thao tác đơn giản</p>
@@ -62,7 +62,7 @@ const Home = () => {
 
                         <div className="text-center group">
                             <div className="w-16 h-16 bg-blood-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blood-200 transition-colors">
-                                <Users className="w-8 h-8 text-blood-600" />
+                                <Users className="w-8 h-8 text-red-500" />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-900 mb-2">Cộng đồng lớn mạnh</h3>
                             <p className="text-gray-600 text-sm">Kết nối với hàng nghìn người hiến máu tình nguyện</p>
@@ -70,7 +70,7 @@ const Home = () => {
 
                         <div className="text-center group">
                             <div className="w-16 h-16 bg-blood-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blood-200 transition-colors">
-                                <MapPin className="w-8 h-8 text-blood-600" />
+                                <MapPin className="w-8 h-8 text-red-500" />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-900 mb-2">Tìm kiếm nhanh chóng</h3>
                             <p className="text-gray-600 text-sm">Tìm người hiến máu gần bạn một cách nhanh chóng</p>
@@ -78,7 +78,7 @@ const Home = () => {
 
                         <div className="text-center group">
                             <div className="w-16 h-16 bg-blood-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blood-200 transition-colors">
-                                <Shield className="w-8 h-8 text-blood-600" />
+                                <Shield className="w-8 h-8 text-red-500" />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-900 mb-2">An toàn bảo mật</h3>
                             <p className="text-gray-600 text-sm">Thông tin cá nhân được bảo mật tuyệt đối</p>
@@ -118,7 +118,7 @@ const Home = () => {
                     </p>
                     <Link
                         to="/register"
-                        className="bg-blood-600 text-white px-8 py-3 rounded-lg hover:bg-blood-700 transition-colors font-medium inline-flex items-center"
+                        className="bg-red-500 text-white px-8 py-3 rounded-lg hover:bg-red-600 transition-colors font-medium inline-flex items-center"
                     >
                         Đăng ký ngay
                         <ArrowRight className="ml-2 w-4 h-4" />
